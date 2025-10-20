@@ -13,7 +13,6 @@ class ListLocations extends ListRecords
 
     protected function getHeaderActions(): array
     {
-        dd(auth()->user());
         return [
             CreateAction::make(),
         ];
